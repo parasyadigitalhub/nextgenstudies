@@ -1,0 +1,283 @@
+.nextgen-text {
+  color: black;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.red-text {
+  color: #be2e2d;
+  text-shadow: saddlebrown;
+  font-weight: bold;
+  font-stretch: expanded;
+  font-family: "Courier New", Courier, monospace;
+  font-style: inherit;
+}
+
+.text-small {
+  font-size: 3rem;
+  color: #be2e2d;
+  font-weight: bolder;
+}
+
+.text-normal {
+  color: #be2e2d;
+}
+
+.whyus-div {
+  height: 450px;
+}
+
+.cource-text {
+  font-size: xx-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  color: black;
+}
+
+.course-main {
+  min-width: 140px;
+}
+
+.course-img {
+  width: 50px;
+  filter: brightness(0) invert(1);
+}
+.image-box {
+  height: 50%;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.course-box {
+  border-radius: 20px;
+  border: 2px;
+  background-color: #c13e3e;
+  border-style: solid;
+  border-color: #500a0a;
+  overflow: hidden;
+  box-shadow: 30px;
+}
+
+.latest-button {
+  background-color: #be2e2d;
+  color: white;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 4px;
+  border: #500a0a;
+}
+.latest-button:hover {
+  background-color: rgb(0, 0, 0);
+  color: #f3eded;
+  border-radius: 4px;
+  border: #500a0a;
+  border: 4px;
+
+  box-shadow: #500a0a;
+}
+
+.btn-course {
+  background-color: white;
+  border-radius: 4px;
+  width: 40%;
+  height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn-course:hover {
+  background-color: black;
+  color: white;
+}
+
+.text-footer {
+  font: size 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: initial;
+}
+
+.Welcome-text {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.about-text {
+  font-size: x-large;
+}
+@media only screen and (max-width: 768px) {
+  .about-text {
+    font-size: larger;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .welcome-text {
+    font-size: larger;
+  }
+}
+
+.icons-socialfa {
+  size: 2rem;
+  color: blue;
+}
+
+.slogan {
+  color: #be2e2d;
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.services-button {
+  color: white;
+  background-color: #be2e2d;
+  border: 4px;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+.post {
+  font-size: medium;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #ea3232;
+}
+
+.svg-icon {
+  width: 10%;
+  height: 10%;
+}
+
+.follow-text {
+  font-size: x-large;
+  font-weight: bolder;
+  color: black;
+  font-style: initial;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cources-bg {
+  background-size: cover;
+  background-image: linear-gradient(to right, #440606, rgba(192, 16, 16, 0.08)),
+    url(../images/Group\ 1.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  align-items: center;
+  padding: 6rem 0;
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+
+.service-bg {
+  background-size: cover;
+  background-image: linear-gradient(to right, #440606, rgba(192, 16, 16, 0.08)),
+    url(../images/Group\ 2.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: grid;
+  align-items: center;
+  padding: 6rem 0;
+
+  border-bottom-right-radius: 80px;
+  border-bottom-left-radius: 80px;
+}
+
+.cources3-text {
+  color: white;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.sticky-whatsapp {
+  position: fixed;
+  bottom: 0px;
+  left: 15px;
+  z-index: 1000px;
+  transition: o.5s ease-out;
+}
+
+.sticky-icon {
+  background: var(--primary);
+  transform: translate3d(0, -5px, 0);
+  -webkit-transform: translate3d(0, -5px, 0);
+  transition: 0.5s ease-out;
+}
+
+.card-service-text {
+  color: #be2e2d;
+}
+.card-service-text:hover {
+  color: black;
+}
+
+.facebook:hover {
+  background-color: #ea3232;
+}
+
+.about-card {
+  box-shadow: rgba(176, 1, 1, 0.19) 0px 10px 20px,
+    rgba(174, 1, 1, 0.23) 0px 6px 6px;
+}
+
+.logo-container {
+  /* align children in the center */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  /* a circle with 60x60 pixels */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.background,
+.spinner {
+  position: absolute;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.background {
+  border-radius: 50%;
+  background-image: linear-gradient(0deg, #0f1013, #252730);
+  box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.6),
+    0 4px 6px 1px rgba(0, 0, 0, 0.3), 0 1px 2px 1px rgba(0, 0, 0, 0) inset,
+    0 18px 32px -2px rgba(255, 255, 255, 0.1) inset;
+}
+.logo {
+  z-index: 9999;
+}
+
+.spinner {
+  border-radius: 50%;
+  border-top: 2px solid #ae34db;
+
+  /* glowing with shadow (30% of #ae34db) */
+  box-shadow: 0 -5px 5px #ae34db4d;
+
+  /* add spin animation */
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
