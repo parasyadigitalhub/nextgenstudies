@@ -13777,7 +13777,7 @@ a.brand-logo img {
 }
 
 .w3l-main-banner h3.banner-text {
-  font-weight: 800;
+  font-weight: bolder;
   font-size: 3rem;
   line-height: 75px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -13788,7 +13788,8 @@ a.brand-logo img {
 }
 @media only screen and (max-width: 768px) {
   .banner-text {
-    font-size: larger;
+    font-size: xx-large;
+    font-weight: 800;
   }
 }
 
@@ -13806,7 +13807,7 @@ a.brand-logo img {
 }
 
 .w3l-main-banner .companies-wrapper {
-  background: rgba(254, 146, 64, 0.05);
+  background: #fff;
 }
 
 .w3l-main-banner .banner-view {
@@ -15056,7 +15057,7 @@ button.owl-next {
 }
 
 .w3l-subscribe .subscription-left {
-  background: url(../images/signages2.jpg) no-repeat center;
+  background: url(../images/signages.jpg) no-repeat center;
   background-size: cover;
   min-height: 45em;
   position: relative;
@@ -15703,13 +15704,18 @@ button.owl-next {
   padding: 20px;
   margin-bottom: 20px;
   bottom: 0;
+  height: 135px;
   z-index: 1;
 }
+@media only screen and (max-width: 800px) {
+  .w3l-team .box16 .box-content {
+  }
+}
 .w3l-team .box16 .title a {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: capitalize;
-  color: #fff;
+  color: #dc3545;
 }
 .w3l-team .box16 .post {
   display: block;
@@ -15728,7 +15734,7 @@ button.owl-next {
 .w3l-team .box16 .social {
   list-style: none;
   padding: 0 0 5px;
-  margin: 40px 0 25px;
+  margin: 24px 0 44px;
   opacity: 0;
   position: relative;
   transform: perspective(500px) rotateX(-90deg) rotateY(0) rotateZ(0);
@@ -15932,7 +15938,7 @@ button.owl-next {
 .w3l-services2 .feature-16-gd {
   padding: 2rem;
   height: 450px;
-
+  overflow: scroll;
   border: 2px;
   border-style: groove;
   border-color: #b21f2d;
