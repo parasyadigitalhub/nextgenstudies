@@ -33,11 +33,11 @@
 }
 
 .cource-text {
-  font-size: 40px;
-  line-height: 1rem;
+  font-size: 35px;
+  line-height: 1.3rem;
 
-  font-family: inter, sans-serif;
-  font-weight: 600;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 550;
 
   color: black;
 }
