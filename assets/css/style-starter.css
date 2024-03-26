@@ -15997,6 +15997,7 @@ button.owl-next {
   font-style: normal;
   font-size: 14px;
   line-height: 28px;
+  text-align: left;
   color: var(--text-color);
 }
 .w3l-services2 .feature-16-gd-info p a:hover {
