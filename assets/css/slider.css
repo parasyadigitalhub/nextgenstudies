@@ -1,0 +1,60 @@
+.client-logo-wrap {
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.client-logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+}
+
+.client-logo-left {
+  animation: logomoveleft 40s linear infinite;
+}
+
+.client-logo li {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 20px !important;
+  height: 100px;
+  width: 220px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+  border: 4px;
+  box-shadow: ;
+}
+
+.slider-font-new {
+  font-family: "poppins" sans-serif;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .slider-font-new {
+    text-align: center;
+  }
+}
+
+/*
+.second-row{ 
+  top: 150px;
+}*/
+
+@keyframes logomoveleft {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-90%, 0);
+  }
+}
