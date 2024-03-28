@@ -30,7 +30,7 @@
   justify-content: center;
   margin: 0px 5px;
   border: 4px;
-  box-shadow: ;
+  box-shadow: var(--card-box-shadow);
 }
 
 .slider-font-new {

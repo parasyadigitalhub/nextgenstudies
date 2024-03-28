@@ -309,3 +309,9 @@
 .text-left {
   text-align: left;
 }
+
+@media only screen and (max-width: 768px) {
+  .course-box h3 {
+    font-size: medium;
+  }
+}
