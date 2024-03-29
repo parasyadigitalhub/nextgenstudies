@@ -13784,8 +13784,8 @@ a.brand-logo img {
   font-size: 2.6rem;
   line-height: 75px;
   font-family: inter, sans-serif;
-  background: #c41426;
-  background: linear-gradient(to right, #c41426 25%, #a62f0b 68%);
+  background: #fff;
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -13798,7 +13798,7 @@ a.brand-logo img {
 
 .w3l-main-banner .banner-info p {
   font-size: 18 px;
-  color: var(--text-color);
+  color: white;
   display: inline-block;
   font-family: poppins, sans-serif;
   line-height: 28px;
@@ -13811,11 +13811,9 @@ a.brand-logo img {
 }
 
 .w3l-main-banner .companies-wrapper {
-  background: #fff;
 }
 
 .w3l-main-banner .banner-view {
-  background: url(../images/newfrontbg.png) no-repeat right;
   background-size: contain;
   min-height: 700px;
   position: relative;
@@ -13874,7 +13872,6 @@ a.brand-logo img {
 
 @media (max-width: 768px) {
   .w3l-main-banner .banner-view:before {
-    background: rgba(255, 255, 255, 0.58);
     margin-left: -25px;
     margin-right: -25px;
   }
@@ -13891,7 +13888,6 @@ a.brand-logo img {
 
 @media (max-width: 576px) {
   .w3l-main-banner .banner-view:before {
-    background: rgba(255, 255, 255, 0.58);
     margin-left: -15px;
     margin-right: -15px;
   }
@@ -15600,8 +15596,6 @@ button.owl-next {
   display: grid;
   margin-bottom: 20px;
   align-items: center;
-  border-bottom-right-radius: 80px;
-  border-bottom-left-radius: 80px;
 
   padding: 2rem 0;
 }
