@@ -184,7 +184,7 @@
 .cources-bg {
   background-size: cover;
   background-image: linear-gradient(to right, #440606, rgba(192, 16, 16, 0.08)),
-    url(../images/servicebg2.png);
+    url(../images/servicebg2.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -196,7 +196,7 @@
 .service-bg {
   background-size: cover;
   background-image: linear-gradient(to right, #440606, rgba(192, 16, 16, 0.08)),
-    url(../images/servicebg.png);
+    url(../images/Group\ 2.png);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: center;
   background-attachment: fixed;
